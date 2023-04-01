@@ -15,7 +15,7 @@ export default function RootLayout({
       
       <body className='flex flex-col justify-between font-mono h-screen bg-slate-200'>
         <nav>
-          <ul className='flex'>
+          <ul className='flex font-semibold'>
             <li className='p-2'><Link href="/">home</Link></li>
             <li className='p-2'><Link href="/">about</Link></li>
             <li className='p-2'><Link href="/">portfolio</Link></li>
