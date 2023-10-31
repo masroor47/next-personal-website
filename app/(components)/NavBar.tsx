@@ -4,7 +4,7 @@ import navLinks from "../data/navLinks"
 export default function NavBar() {
   return (
     <nav>
-      <ul className='flex'>
+      <ul className='flex ml-4'>
         {navLinks.map((item, id) => (
           <li 
             key={id}
