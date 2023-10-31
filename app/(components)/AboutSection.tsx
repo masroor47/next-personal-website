@@ -9,7 +9,6 @@ export default function AboutSection() {
     <div className="p-4 my-2 h-[400px] flex justify-center items-center">
 
       <div className='flex h-min'>
-      
         <Image
           className='mr-4'
           src="/images/profile/masroor-sde-city.jpg"
@@ -27,11 +26,7 @@ export default function AboutSection() {
           </div>
 
           <SocialLinks />
-
-
         </div>
-
-
       </div>
 
     </div>
