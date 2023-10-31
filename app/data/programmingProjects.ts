@@ -3,7 +3,7 @@ const programmingProjects = [
     title: "Solar System Simulator",
     img: "/images/projects/solar-system.png",
     link: "solar-system-simulator",
-    description: "I wrote this cool thing.",
+    description: "A 2D visual solar system simulator which calculates interactions between all bodies on every frame.",
   },
   {
     title: "Self Driving RL",

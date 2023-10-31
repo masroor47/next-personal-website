@@ -17,11 +17,11 @@ export default function ProjectCard({
 
   return (
     <Link
-      className="w-64 mx-2"
+      className="w-64 mx-2 mb-12"
       href={`/projects/${link}`}
     >
       <div className="w-full">
-        <div className="mb-6">
+        <div className="mb-2">
           <Image 
             src={img}
             width={200}

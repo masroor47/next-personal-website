@@ -9,7 +9,7 @@ export default function ProjectsSubList() {
 
   return (
     <div>
-      <ul className="flex justify-center mb-8">
+      <ul className="flex flex-col items-center md:flex-row md:items-start justify-center mb-8">
         {programmingProjects.slice(0, 3).map((project, id) => (
           <ProjectCard
             key={id}

@@ -17,7 +17,7 @@ export default function Home() {
 
         <PortfolioSection />
       
-        <ResearchSection />
+        {/* <ResearchSection /> */}
       </div>
     </main>
   )
