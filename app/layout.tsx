@@ -15,10 +15,12 @@ export default function RootLayout({
       
       <body className='flex flex-col justify-between font-mono h-screen bg-slate-200'>
         <nav>
-          <ul className='flex font-semibold'>
+          <ul className='flex'>
             <li className='p-2'><Link href="/">home</Link></li>
-            <li className='p-2'><Link href="/">about</Link></li>
-            <li className='p-2'><Link href="/">portfolio</Link></li>
+            {/* <li className='p-2'><Link href="/">about</Link></li> */}
+            <li className='p-2'><Link href="/projects">portfolio</Link></li>
+            <li className='p-2'><Link href="/blog">blog</Link></li>
+
             <li className='p-2'><Link href="/">contact</Link></li>
           </ul>
         </nav>

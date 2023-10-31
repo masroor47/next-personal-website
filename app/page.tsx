@@ -13,7 +13,7 @@ export default function Home() {
       <div className=''>
 
         <div className='p-4 my-2'>
-          <h1 className='text-2xl font-semibold'>Welcome to my website!</h1>
+          <h1 className='text-2xl'>Welcome to my website!</h1>
           <p>I will post updates and relevant information on here. Thanks.</p>
         </div>
 
