@@ -7,8 +7,8 @@ export default function Footer() {
       {`© ${new Date().getFullYear()} Masroor K`}
       </div>
       <ul className='flex '>
-        <li className='p-2'><Link href="/">home</Link></li>
-        <li className='p-2'><Link href="/">contact</Link></li>
+        <li className='p-2 hover:underline hover:cursor-pointer'><Link href="/">home</Link></li>
+        <li className='p-2 hover:underline hover:cursor-pointer'><Link href="/">contact</Link></li>
       </ul>
     </footer>
   )
