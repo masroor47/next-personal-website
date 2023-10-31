@@ -1,6 +1,7 @@
 import Link from "next/link"
 import ProjectCard from "./ProjectCard"
 import programmingProjects from "../data/programmingProjects"
+import AnimatedLink from "./AnimatedLink"
 
 export default function ProjectsSubList() {
 
@@ -20,9 +21,7 @@ export default function ProjectsSubList() {
         ))}
       </ul>
       <div className="flex justify-end mr-4">
-        <div className="border-2 border-black p-1">
-          <Link href="/projects/">See all...</Link>
-        </div>
+        <AnimatedLink text="See all ->" href="/projects/"/>
       </div>
     </div>
   )
