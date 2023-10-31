@@ -10,7 +10,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     // Allows customizing built-in components, e.g. to add styling.
     h2: ({ children }) => <h1 className="text-xl font-bold">{children}</h1>,
-    pre: ({ children }) => <pre className='bg-blue-400'>{children}</pre>,
+    // pre: ({ children }) => <pre className='bg-blue-400'>{children}</pre>,
     ...components,
   }
 }
