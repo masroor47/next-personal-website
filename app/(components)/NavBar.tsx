@@ -8,9 +8,14 @@ export default function NavBar() {
         {navLinks.map((item, id) => (
           <li 
             key={id}
-            className='p-2 text-slate-600 transition ease-in-out delay-100 hover:text-slate-900'
+            className='mx-2'
           >
-            <Link href={item.href}>{item.title}</Link>
+            <Link 
+              className='nav-link text-slate-500 transition ease-in-out duration-200 hover:text-slate-900'
+              href={item.href}
+            >
+              {item.title}
+            </Link>
           </li>
         ))}
         
