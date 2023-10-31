@@ -2,6 +2,7 @@ import Image from 'next/image';
 import EmailIcon from './EmailIcon';
 import githubIcon from './social-icons/github.svg'
 import linkedinIcon from './social-icons/linkedin.svg'
+import siteMetadata from '../data/siteMetadata';
 
 export default function SocialLinks() {
 
@@ -11,7 +12,7 @@ export default function SocialLinks() {
       <a 
         target="_blank"
         className='p-2'
-        href="https://github.com/masroor47">
+        href={siteMetadata.github}>
         <Image
           priority
           src={githubIcon}
@@ -22,7 +23,7 @@ export default function SocialLinks() {
       <a 
         target="_blank"
         className='p-2'
-        href="https://linkedin.com/in/masroor-k">
+        href={siteMetadata.linkedin}>
         <Image
           priority
           src={linkedinIcon}
