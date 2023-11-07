@@ -9,7 +9,7 @@ export default function HireMeNow() {
         </h1>
 
         <Link href="#"
-          className="ml-4 px-2 border-2 border-black bg-slate-800 transition ease-in-out delay-100 hover:text-slate-500 "
+          className="ml-4 px-2 border-2 border-black bg-slate-800 transition ease-in-out delay-50 hover:text-slate-500 "
         >
           schedule a call -&gt;
         </Link>
