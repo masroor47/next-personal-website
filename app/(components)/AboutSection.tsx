@@ -6,7 +6,7 @@ import SocialLinks from './SocialLinks';
 export default function AboutSection() {
 
   return (
-    <div className="p-4 my-2 h-[400px] flex justify-center items-center">
+    <div className="p-4 mb-4 h-[400px] flex justify-center items-center">
 
       <div className='flex h-min'>
         <Image
