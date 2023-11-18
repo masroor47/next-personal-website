@@ -18,11 +18,12 @@ export default function RootLayout({
       <head />
       
       <body className='flex flex-col justify-between font-mono h-screen bg-slate-200'>
-        <HireMeNow />
-        
-        <div className='w-full sm:w-full md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto'>
-          <NavBar />
-          {children}
+        <div>
+          <HireMeNow />
+          <div className='w-full sm:w-full md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto'>
+            <NavBar />
+            {children}
+          </div>
         </div>
 
         <Footer />
