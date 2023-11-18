@@ -1,5 +1,9 @@
 import './globals.css'
 import Link from 'next/link'
+import HireMeNow from './(components)/HireMeNow'
+import NavBar from './(components)/NavBar'
+import Footer from './(components)/Footer'
+
 export default function RootLayout({
   children,
 }: {
@@ -14,27 +18,15 @@ export default function RootLayout({
       <head />
       
       <body className='flex flex-col justify-between font-mono h-screen bg-slate-200'>
-        <nav>
-          <ul className='flex'>
-            <li className='p-2'><Link href="/">home</Link></li>
-            <li className='p-2'><Link href="/">about</Link></li>
-            <li className='p-2'><Link href="/">portfolio</Link></li>
-            <li className='p-2'><Link href="/">contact</Link></li>
-          </ul>
-        </nav>
-        <div className='mb-auto'>
-          {children}
+        <div>
+          <HireMeNow />
+          <div className='w-full sm:w-full md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto'>
+            <NavBar />
+            {children}
+          </div>
         </div>
 
-        <footer className='flex items-center justify-center text-sm'>
-          <div>
-          {`© ${new Date().getFullYear()} Masroor K`}
-          </div>
-          <ul className='flex '>
-            <li className='p-2'><Link href="/">home</Link></li>
-            <li className='p-2'><Link href="/">contact</Link></li>
-          </ul>
-        </footer>
+        <Footer />
       </body>
     </html>
   )

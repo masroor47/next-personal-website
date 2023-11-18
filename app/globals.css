@@ -110,3 +110,24 @@ a {
     color-scheme: dark;
   }
 } */
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 25px;
+  height: 1px;
+  background-color: black;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 300ms ease-in-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
