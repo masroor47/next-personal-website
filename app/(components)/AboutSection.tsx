@@ -11,7 +11,7 @@ export default function AboutSection() {
       <div className='flex h-min'>
         <Image
           className='mr-4'
-          src="/images/profile/masroor-sde-city.jpg"
+          src="/images/profile/CHAD.jpeg"
           width={200}
           height={200}
           alt="Masroor picture"
@@ -19,7 +19,7 @@ export default function AboutSection() {
 
         <div className='mt-4'>
           <h1 className='text-3xl'>Masroor Khonkhodzhaev</h1>
-          <h1 className='text-sm'>Software Engineering / Data Analysis</h1>
+          <h1 className='text-sm'>Software Engineering / Data Science</h1>
           <div>
             <h1>B.S. Physics</h1>
             <h1>B.A. Computer Science</h1>
